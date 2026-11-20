@@ -1,0 +1,12 @@
+# Large local assets (keep on disk, do not push)
+corenlp-english-extra/
+CDR_Data/
+CDR_Data.zip
+*.jar
+
+# OS / IDE / notebooks
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
+.vscode/
+.idea/
