@@ -1,0 +1,10 @@
+# DocCIDR / Zheng 2018 CID — Python 3.11 env name: dl
+tensorflow[and-cuda]
+gensim
+scikit-learn
+stanfordcorenlp
+numpy
+jupyter
+ipykernel
+torch
+stanza

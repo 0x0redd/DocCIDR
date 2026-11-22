@@ -1,12 +1,48 @@
-# Large local assets (keep on disk, do not push)
-corenlp-english-extra/
+# --- Large local data / toolkits (keep on disk, do not push) ---
+Dataset/
 CDR_Data/
 CDR_Data.zip
+corenlp-english-extra/
+stanford-corenlp/
+stanford-corenlp-4.6.0/
+stanford-corenlp-*/
 *.jar
+desc.xml
+desc*.xml
+
+# PubTator / embedding build artefacts
+embeddings/
+*.tar.gz
+
+# CUDA local installer packages
+cuda-repo-*.deb
+*.deb
+
+# Local Python env
+dl/
+.venv/
+venv/
+
+# Temp / caches
+.tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets / env
+.env
+.env.*
 
 # OS / IDE / notebooks
 .DS_Store
+Thumbs.db
 __MACOSX/
 .ipynb_checkpoints/
 .vscode/
 .idea/
+.claude/
+.cursor/
+*.swp
+*~
