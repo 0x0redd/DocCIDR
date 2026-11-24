@@ -44,3 +44,7 @@ python scripts/build_pubtator_embeddings.py --download
 
 Writes `embeddings/w2v_word.model` and `embeddings/w2v_pos.model` for the notebook.
 Progress: `tail -f embeddings/build.log`.
+
+
+tail -f ~/Documents/DocCIDR/embeddings/build.log
+ls -lh ~/Documents/DocCIDR/embeddings/BioCXML.0.tar.gz
