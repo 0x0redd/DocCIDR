@@ -8,3 +8,4 @@ jupyter
 ipykernel
 torch
 stanza
+transformers
